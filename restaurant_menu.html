@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maid Café</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f5f5f5;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffadc2;
+            padding: 40px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        #header-img {
+            width: 120px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ff4d67;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a1a1a;
+            background-color: #ffadc2;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #ff4d67;
+            color: #f5f5f5;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #ff4d67;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        article {
+            background-color: #2d2d2d;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        article img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h3 {
+            color: #ffadc2;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            margin-bottom: 5px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #2d2d2d;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        label, input, textarea, fieldset, legend {
+            color: #f5f5f5;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: none;
+            background-color: #404040;
+            color: #f5f5f5;
+            font-size: 1em;
+        }
+
+        fieldset {
+            border: 2px solid #ffadc2;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2em;
+            background-color: #ffadc2;
+            border: none;
+            border-radius: 10px;
+            color: #1a1a1a;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff4d67;
+            color: #f5f5f5;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav {
+                margin-top: 20px;
+            }
+
+            #menu {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="header-img" src="https://ideogram.ai/assets/image/lossless/response/2gtq64HcTeO4vVIkpg68pg" alt="Maid Restro Logo">
+        <h1>Maid Restro</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#order-form">Place Your Order</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+
+            <article>
+                <img src="https://files.oaiusercontent.com/file-yIk3zXc4gNB2yXZ2ScxlHBbi?se=2024-10-08T20%3A46%3A44Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D8973d6cc-b938-494d-9c10-83543efde0d0.webp&sig=DBOnwr9PmUwmnzxq850Z0j%2BxPzdEGSkTjCkeGADPon0%3D" alt="Magical Matcha Latte">
+                <h3>Magical Matcha Latte</h3>
+                <p><i>A velvety matcha latte, hand-whisked to perfection and topped with a playful swirl of cream. Price: $4.99</i></p>
+            </article>
+
+            <article>
+                <img src="https://files.oaiusercontent.com/file-WCKjfqux2FhC3APpwgSsTvxY?se=2024-10-08T20%3A48%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0443ba1f-6323-4f75-ab0f-adc032466102.webp&sig=6g6fNL6jelAj8ax5uOdMamYCg8NKNKfqUU5WqTrFWnA%3D" alt="Kawaii Bento Box">
+                <h3>Kawaii Bento Box</h3>
+                <p><i>A delightful lunch set with mini onigiri, teriyaki chicken skewers, and tamagoyaki. Price: $10.99</i></p>
+            </article>
+
+            <article>
+                <img src="https://files.oaiusercontent.com/file-cAZoMyvggckpYKi2tGPwQh6U?se=2024-10-08T20%3A49%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dd13f1bf8-908d-4078-9c48-38df9cf18513.webp&sig=28t7dxNE07GzgdthNd3xyyjkJ9qpW/JmvvECDo%2BgRwQ%3D" alt="Sweet Sakura Pancakes">
+                <h3>Sweet Sakura Pancakes</h3>
+                <p><i>Fluffy, pink sakura-flavored pancakes drizzled with strawberry syrup. Price: $7.99</i></p>
+            </article>
+        </section>
+
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form action="checkout.html" method="POST">
+                <label for="latte">Magical Matcha Latte:</label>
+                <input type="number" id="latte" name="latte" min="0" value="0"><br>
+
+                <label for="bento">Kawaii Bento Box:</label>
+                <input type="number" id="bento" name="bento" min="0" value="0"><br>
+
+                <label for="pancakes">Sweet Sakura Pancakes:</label>
+                <input type="number" id="pancakes" name="pancakes" min="0" value="0"><br>
+
+                <fieldset>
+                    <legend>Extras:</legend>
+                    <input type="checkbox" id="extra-syrup" name="extra" value="extra-syrup">
+                    <label for="extra-syrup">Extra Syrup</label><br>
+                    <input type="checkbox" id="whipped-cream" name="extra" value="whipped-cream">
+                    <label for="whipped-cream">Whipped Cream</label>
+                </fieldset>
+
+                <label for="special-requests">Special Requests:</label><br>
+                <textarea id="special-requests" name="special-requests" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Go To Checkout">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
