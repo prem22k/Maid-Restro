@@ -38,3 +38,8 @@ To view the project locally:
 1. Clone this repository:  
    ```bash
    git clone https://github.com/prem22k/Maid-Restro.git
+2. Open the index.html file in your preferred browser.
+
+<br>
+
+By submitting this final project, I aim to earn the HTML certification from Codédex, showcasing my understanding of web development basics and my ability to create functional, visually appealing websites.
